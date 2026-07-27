@@ -21,20 +21,10 @@ div {
     height: 200px;
 }
 
-.flex {
-    background-color: #aba;
-    /* write declarations here */
-
-}
-
-.grid {
-    background-color: #abb;
-    /* enter declarations here */
-
-}
-
 .container2 {
-    /* write declarations here */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 
 }
 
@@ -45,15 +35,30 @@ div {
 
 .container3 {
     /* write declarations here */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 
 }
 
 .columns-3 {
     /* write declaration here */
-
+    grid-column: 1/4;
 }
 
 .three {
     margin: .25rem;
     background-color: #abd;
+}
+
+.flex {
+    background-color: #aba;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid {
+    background-color: #abb;
+    display: grid;
+    place-items: center;
 }
