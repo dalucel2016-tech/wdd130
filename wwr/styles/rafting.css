@@ -129,3 +129,39 @@ header img {
     width: 100px;
     justify-self: center;
 }
+
+.adventures {
+    display: grid;
+    grid-template-columns: repeat(5, 173px);
+    justify-content: center;
+}
+
+figure img {
+    width: 150px;
+    height: auto;
+    object-fit: cover;
+}
+
+figure {
+    text-align: center;
+}
+
+.adventures img {
+    width: 100px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.socialmedia {
+    display: flex;
+    gap: 15px;
+}
+
+.socialmedia img {
+    width: 40px;
+    height: 40px;
+}
