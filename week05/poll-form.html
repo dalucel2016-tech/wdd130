@@ -4,25 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="styles/poll-form.css">
 </head>
 <body>
     <header></header>
     <main>
+        <h1>WDD 130 Html Form - User Poll</h1>
         <form>
+
+            <div class="fom-item column2">
             <label for="fullname">Full Name:</label>
             <input type="text" id="fullname" name="fullname" required>
+            </div>       
+            <div class="form-item column2"> 
             <label for="usermail">Email:</label>
             <input type="email" id="useremail" name="useremail" required>
-        
+            </div>
             
-        <label for="quantity">Select</label>
+            <div>
+        <label for="fom-item column1">Select</label>
             <select name="quantity" id="quantity">
                 <option value="1">One</option>
                 <option value="2">Two</option>
                 <option value="3">Three</option>
             </select>
-            
-        <label for="browser">What is your favorite Internet Browser</label>
+            </div>
+            <div>     
+        <label for="fom-item column1">What is your favorite Internet Browser</label>
             <select name="browser" id="browser">
                 <option value="chrome">Chrome</option>
                 <option value="firefox">Firefox</option>
@@ -30,15 +38,19 @@
                 <option value="brave">Brave</option>
                 <option value="other">Other</option>
             </select>
-            
+            </div>
+            <div>
             <label for="pet">Do yo have a household pet</label>
                 <input type="checkbox" id="pet" name="pet">
-            
+            </div>
+            <div></div>
             <label for="feedback">List the places you have lived</label>
                 <textarea id="feedback" name="feedback" rows="4" placeholder="Quetzaltenango,Huhuetenango,Solola,Tegucigalpa"></textarea>
             <button type="submit">Submit Poll</button>
             </form>
     </main>
-    <footer></footer>
+    <footer>+
+        <p>2024 html form- User Poll Activity David Ucles</p>
+    </footer>
 </body>
 </html>
